@@ -1,3 +1,4 @@
+/* HEADER AND NAV BAR */
 h1 {
 
 }
@@ -17,4 +18,53 @@ a {
 
 a:hover {
   font-size: 1.25em;
+}
+/* BODY */
+
+div {
+  display: block;
+}
+
+/* COLOUR SECTION */
+
+.colours {
+  width: 100%;
+  border: 1px solid black;
+  margin: 0px auto;
+}
+
+.swatch {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
+}
+
+.color-label{
+  color: white;
+}
+
+.color-hex {
+  color: lightgray
+}
+
+.blood-red {
+  background-color: #7c0200;
+}
+
+.moss-green {
+  background-color: #03342e; 
+}
+
+.forest-green {
+  background-color: #03211c;
+}
+
+.light-green{
+  background-color: #657b50;
+}
+
+.lighter-green {
+  background-color: #7d9267;
 }
