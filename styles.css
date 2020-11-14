@@ -25,19 +25,32 @@ div {
   display: block;
 }
 
-/* COLOUR SECTION */
-
-.colours {
+.container {
   width: 100%;
   border: 1px solid black;
-  margin: 0px auto;
+  margin: 10px auto;
 }
+
+h2 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  color: darkgray;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+/* COLOUR SECTION */
 
 .swatch {
   display: inline-block;
-  width: 33%;
+  width: 30%;
   text-align: center;
-  margin: 20px auto;
+  margin: 15px 2px;
   min-height: 100px;
 }
 
@@ -68,3 +81,31 @@ div {
 .lighter-green {
   background-color: #7d9267;
 }
+
+/* FONTS SECTION */
+
+.font-label {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+.font-panel {
+  margin-left: 5px;
+  width: 47%;
+  display: inline-block;
+}
+.jim-nightshade {
+  font-family: "Jim Nightshade";
+  font-size: 1.2em;
+}
+
+.cinzel {
+  font-family: "Cinzel";
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+/* TEXT STYLES SECTION */
+
