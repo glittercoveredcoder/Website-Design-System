@@ -1,6 +1,7 @@
 /* HEADER AND NAV BAR */
 h1 {
-
+  font-weight: bold;
+  font-size: 2em;
 }
 
 ul {
@@ -21,6 +22,10 @@ a:hover {
 }
 /* BODY */
 
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 div {
   display: block;
 }
@@ -39,7 +44,7 @@ h2 {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
-  color: darkgray;
+  color: black;
   text-decoration: underline;
   margin-left: 10px;
 }
